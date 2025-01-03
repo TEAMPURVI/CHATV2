@@ -238,18 +238,18 @@ async def ls(_, m: Message):
 async def start(_, m: Message):
     try:
         # Initializing the progress bar message
-        baby = await m.reply_text(f"**__ʜᴇʟʟᴏ ʙᴀʙʏ..__**")
+        baby = await m.reply_text(f"**__ʜᴇʟʟᴏ ʙᴀʙʏ...🍫__**")
         
         # Simulating progress updates
-        await baby.edit_text(f"**__ɪ'ᴍ sᴏɴᴀʟɪ..__**")
+        await baby.edit_text(f"**__ɪ'ᴍ sᴏɴᴀʟɪ...😻__**")
         await asyncio.sleep(0.005)
-        await baby.edit_text(f"**__ʏᴏᴜʀ ᴄʜᴀᴛ ʙᴏᴛ..__**")
+        await baby.edit_text(f"**__ʏᴏᴜʀ ᴄʜᴀᴛ ʙᴏᴛ...🎉__**")
         await asyncio.sleep(0.005)
-        await baby.edit_text(f"**__sᴛᴀʀᴛɪɴɢ..__**")
+        await baby.edit_text(f"**__sᴛᴀʀᴛɪɴɢ...😱__**")
         await asyncio.sleep(0.005)
         
         # After reaching 100%, notify the user and delete the progress message
-        await baby.edit_text(f"**__ɴᴏᴡ sᴛᴀʀᴛᴇᴅ..__**")
+        await baby.edit_text(f"**__ɴᴏᴡ sᴛᴀʀᴛᴇᴅ...❤️‍🔥__**")
         await asyncio.sleep(0.5)
         await baby.delete()
 
